@@ -1,4 +1,4 @@
-# Task Management API
+# 📝 Task Management API
 
 This is a simple **Task Management System** built with Node.js, Express, MongoDB, and Swagger for API documentation.
 
@@ -12,7 +12,7 @@ This is a simple **Task Management System** built with Node.js, Express, MongoDB
 - Unit testing with Jest & Supertest
 - API documentation via Swagger UI
 
-## 🧪 Tech Stack
+## 🕹️ Tech Stack
 
 - Node.js  
 - Express.js (framework)
@@ -39,7 +39,19 @@ This is a simple **Task Management System** built with Node.js, Express, MongoDB
 5. Run the server by write this in your terminal : npm run dev<br>
    Server will runs at : `http://localhost:4000`
 
-## API Documentation
+## 📊 Database Schema
+The Task model includes the following fields:
+
+- `title` (String, required)
+- `description` (String, optional)
+- `category` (String)
+- `priority` (String: "Low", "Medium", "High")
+- `deadline` (Date, required)
+- `createdAt` (Date, auto-generated)
+- `updatedAt` (Date, auto-generated)
+
+
+## 🔥 API Documentation
 
   Swagger UI available at:
   ```
@@ -53,7 +65,7 @@ It lists and allows testing of:
 - `PUT /api/tasks/:id`
 - `DELETE /api/tasks/:id`
 
-## Testing Analysis [Create Read Update Delete]
+## 🧪 Testing Analysis [Create Read Update Delete]
 This project uses **Jest** and **Supertest** for unit testing.
 ### Tested Features
 1. ✅ Successful post task creation, get task, get task by id, put and delete by the id
@@ -62,10 +74,10 @@ This project uses **Jest** and **Supertest** for unit testing.
 
 ### Run test
 Bashing this in other terminal<br>
-npm test<br>
+`npm test`
 Make sure MongoDB is running before testing. 
 
-## Commit Message Formatting
+## ⌨️ Commit Message Formatting
 Use the following format when committing:
 
 ```
@@ -77,9 +89,10 @@ Example:
 feat(talent-growth): Add POST /tasks endpoint
 ```
 
-## Author
+## 👩🏻‍💻 Author
 Natasha Dian Mahardita<br>
 [https://github.com/natashaDian]
+
 
 
 

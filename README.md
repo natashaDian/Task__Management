@@ -22,12 +22,12 @@ This is a simple **Task Management System** built with Node.js, Express, MongoDB
 - Swagger UI (API documentation)
 
 ## 📦 How to install my code
-1. Clone the Repo with :
-   git clone https://github.com/natashaDian/Task__Management
+1. Clone the Repo with :<br>
+   git clone https://github.com/natashaDian/Task__Management <br>
    cd Task__Management
-2. Install dependencies :
+2. Install dependencies :<br>
    npm install
-3. Configure the environment by :
+3. Configure the environment by :<br>
    Create `.env` file and write this code
     ```
     PORT=4000
@@ -36,7 +36,7 @@ This is a simple **Task Management System** built with Node.js, Express, MongoDB
 4. Start mongoDB locally (here i use mongodb-community@7.0 please check yours)
    bash this :
    `brew services start mongodb-community@7.0`
-5. Run the server by write this in your terminal : npm run dev
+5. Run the server by write this in your terminal : npm run dev<br>
    Server will runs at : `http://localhost:4000`
 
 ## API Documentation
@@ -61,8 +61,8 @@ This project uses **Jest** and **Supertest** for unit testing.
 3. ✅ Error handling logic [400, 404, 500]
 
 ### Run test
-Bashing this in other terminal
-npm test
+Bashing this in other terminal<br>
+npm test<br>
 Make sure MongoDB is running before testing. 
 
 ## Commit Message Formatting
@@ -78,8 +78,9 @@ feat(talent-growth): Add POST /tasks endpoint
 ```
 
 ## Author
-Natasha Dian Mahardita
+Natasha Dian Mahardita<br>
 [https://github.com/natashaDian]
+
 
 
 
